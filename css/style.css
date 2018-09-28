@@ -1,0 +1,22 @@
+*{margin: 0; padding: 0;}
+*{box-sizing: border-box;}
+#code{
+    height: 100vh;
+    overflow: hidden;
+}
+*{
+    transition: all 1s;
+}
+
+.token.function{
+    color: black;
+}
+.token.property{
+    color: black;
+}
+.token.selector{
+    color: black;
+}
+#paper > pre{
+    padding-left: 16px;
+}
